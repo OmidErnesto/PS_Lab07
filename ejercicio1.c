@@ -21,3 +21,15 @@ int bool_xor(int x, int y) {
  return resultado;
 
 }
+
+int main(){
+
+}
+
+int bis(int x, int m) {
+
+ unsigned int Z = x | 1<<m;
+ return Z;
+
+}
+
