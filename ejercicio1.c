@@ -25,9 +25,9 @@ int bool_xor(int x, int y) {
 }
 
 int main(){
-
-	printf("%d\n",bool_or(13,6));
-	printf("%d\n",bool_xor(13,6));
+	// Prueba con los numeros 13 y 6
+	printf("%d\n",bool_or(13,6));   //15 = 1111
+	printf("%d\n",bool_xor(13,6));  //11 = 1011
 	return 0;
 }
 
